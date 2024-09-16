@@ -1,0 +1,15 @@
+sign up for free on no code api -> search for spotify api -> enable the api by authenticating it  
+now when we tap on use this api we will be getting lots of usage guide options on how to perform crud using the api 
+
+______________________________________________________________________________________________________________________________________
+
+1)create app and have a basic setup 
+
+2)go to react bootstrap -> npm install react-bootstrap bootstrap
+and paste this in the main.jsx -> import 'bootstrap/dist/css/bootstrap.min.css';
+
+3)copy and paste the bootstrap navbar after creating a navbar component which just has a search bar 
+make a state that will initially be an empty array but we will use a function to fetch and populate that empty array 
+
+4)npm i axios to make requests 
+and inside that navbar component make a get request to the api so that we can populate the empty array of the tracks with the response 
