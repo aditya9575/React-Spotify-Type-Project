@@ -48,8 +48,11 @@ setIsLoading(true)
               className="me-2 w-75"
               aria-label="Search"
               onChange={(e)=>{setKeyWord(e.target.value)}}
+              required
             />
-            <Button variant="outline-success" onClick={getTracks}>Search</Button>
+          {keyWord ?   <Button variant="outline-success" onClick={getTracks}>Search</Button> : 
+          <Button variant="outline-success disabled">Search</Button>
+          }
           </Navbar.Collapse>
         </Container>
       </Navbar>
